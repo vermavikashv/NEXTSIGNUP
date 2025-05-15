@@ -1,10 +1,10 @@
 import Image from "next/image";
-import Sign from "@/app/signup/page";
+// import Sign from "@/app/signup/page";
 
 export default function Home() {
   return (
     <div>
-      {/* <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
+      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <Image
           className="dark:invert"
           src="/next.svg"
@@ -98,8 +98,8 @@ export default function Home() {
           />
           Go to nextjs.org →
         </a>
-      </footer> */}
-      <Sign />
+      </footer>
+      {/* <Sign /> */}
     </div>
   );
 }
